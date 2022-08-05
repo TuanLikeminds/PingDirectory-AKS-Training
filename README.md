@@ -1,0 +1,1 @@
+# PingDirectory-AKS-Training
