@@ -1,0 +1,17 @@
+## PD - tested on 0.8.6
+pingdataconsole:
+  enabled: true
+
+pingdirectory:
+  envs:
+    
+    ## VARIABLES TO ENABLE MULTI-REGION
+    K8S_CLUSTERS: west east
+    K8S_CLUSTER: west
+    K8S_SEED_CLUSTER: west
+    K8S_NUM_REPLICAS: "9"
+    K8S_POD_HOSTNAME_PREFIX: "likeminds-pingdirectory-"
+    K8S_POD_HOSTNAME_SUFFIX:  ".likeminds-pingdirectory-cluster.west.svc.cluster.local"
+    K8S_SEED_HOSTNAME_SUFFIX:  ".likeminds-pingdirectory-cluster.west.svc.cluster.local"
+    K8S_INCREMENT_PORTS: "false"
+    # VERBOSE: "true"
