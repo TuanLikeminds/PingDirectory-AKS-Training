@@ -1,0 +1,8 @@
+Set an Alias for Kubectl in powershell
+---------------------------------------
+Set-Alias -Name k -Value kubectl
+
+Default admin credentials- PingIdentity devops images
+---------------------------------------
+cn=administrator
+2FederateM0re
