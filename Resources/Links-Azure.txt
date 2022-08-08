@@ -1,3 +1,4 @@
 Install Azure CLI
 -----------------
 
+https://www.youtube.com/watch?v=ecCuyq-Wprc&t=618s
